@@ -1,0 +1,163 @@
+h1{
+    color: rgb(249, 249, 249);/*color of the heading 1*/
+    font-family:STXingkai;/*font family of heading 1*/
+    font-size: 350%;/*font size of h1*/
+    margin-bottom: 2%;/*margin from bottom*/
+    margin-left: 13%;/*margin from left*/
+    padding-top: 18%;/*padding from top*/
+}
+
+p {
+    color: rgb(249, 249, 249);/*color of paragraph tag*/
+    font-family:Young Serif;/*font family of p tag*/
+    font-size: x-large;/*font size of p tag*/
+}
+
+ul {
+    /* height: 500px; */
+    /* text-align: center; */
+}
+
+img {
+    position: absolute;/*Location of image*/
+    right: 0;
+    cursor: pointer;/*Cursor location*/
+    margin-right: 35px;/*what should be the right margin*/
+    border-radius: 7%;/*radius of th eborder of image*/
+}
+
+.box1 {
+    color: white;/*color of the box*/
+    font-weight: bold;/*boldness of the text in the box*/
+    font-size: 20px;/*Size of the font in the box*/
+    margin: 50px;/*Margin of the box*/
+    width: 125px;/*width of the box1*/
+    background: linear-gradient(to right, #1A2980, #26D0CE);/*Gradient of the box*/
+    transition: transform 1s;/*Time for the transformation i.e. increasing the size*/
+    margin-top: 25%;/*margin from the top*/
+    width: 250px;/*width of the box*/
+    height: 60px;/*height of the box*/
+    border-radius: 15px;/*Radius of the box*/
+    font-size: 30px;/*Size of the font in the box*/
+    padding-left: 0px;/*Indentation of the character from the left to right*/
+    padding-top: 0%;/*Distance of the text from top*/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+  
+.box1:hover {
+    transform: scale(1.2);/*Increment in the size*/
+}
+
+.box2 {
+    color: white;/*color of box 2*/
+    font-weight: bold;/*boldness of text in box2*/
+    margin: 50px;/*Margin of the box*/
+    width: 110px;/*width of box 2*/
+    background: linear-gradient(to right, #1A2980, #26D0CE);/*Gradient of the box*/
+    transition: transform 1s;/*Time for the transformation i.e. increasing the size*/
+    width: 250px;/*width of the box*/
+    height: 60px;/*height of the box*/
+    border-radius: 15px;/*Radius of the box*/
+    font-size: 30px;/*Size of the font in the box*/
+    padding-left: 95px;/*Indentation of the character from the left to right*/
+    padding-top: 0%;/*Distance of the text from top*/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.box2:hover {
+    transform: scale(1.2);/*Increment in the size*/
+}
+
+.box3 {
+    color: white;/*color of box 3*/
+    font-weight: bold;/*boldness of text in box3*/
+    font-size: 30px;/*Size of the font in the box*/
+    margin: 65px;/*Margin of the box*/
+    width: 150px;/*Width of the box*/
+    background: linear-gradient(to right, #1A2980, #26D0CE);/*Gradient of the box*/
+    transition: transform 1s;/*Time for the transformation i.e. increasing the size*/
+    padding: 0%;
+    width: 300px;/*Expected the width of the box*/
+    height: 60px;/*height of the box*/
+    border-radius: 15px;/*Radius of the box*/
+    padding-left: 30px;/*Indentation of the character from the left to right*/
+    padding-top: 0%;/*Distance of the text from top*/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.box3:hover {
+    transform: scale(1.2);/*Increment in the size*/
+}
+
+.box4 {
+    color: white;/*color of the box*/
+    font-weight: bold;/*boldness of the text in the box*/
+    font-size: 30px;/*Size of the font in the box*/
+    margin: 65px;/*Margin of the box*/
+    /* width: 125px;width of the box1 */
+    background: linear-gradient(to right, #1A2980, #26D0CE);/*Gradient of the box*/
+    transition: transform 1s;/*Time for the transformation i.e. increasing the size*/
+    margin-top: 25%;/*margin from the top*/
+    width: 250px;/*width of the box*/
+    height: 60px;/*height of the box*/
+    border-radius: 15px;/*Radius of the box*/
+    font-size: 30px;/*Size of the font in the box*/
+    padding-left: 0px;/*Indentation of the character from the left to right*/
+    padding-top: 0%;/*Distance of the text from top*/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+  
+.box4:hover {
+    transform: scale(1.2);/*Increment in the size*/
+}
+
+body {
+    background-color: black;
+    background-image: url("112.png");/*image for background of portfolio*/
+    background-size: cover;/*it should cover the whole page or not*/
+    background-position: center center;/*position of background image*/
+    background-repeat: no-repeat;/*It some space is left thaan it should repeat itself or not*/
+    background-attachment: fixed;/**/
+}
+
+a{
+    text-decoration: none;/*what should be text decoration*/
+    color: white;/*color of text*/
+    border-radius: 25% ;/*radius of anchor tag*/
+}
+
+button{
+    border-radius: 15px;/*border radius of the button*/
+    box-shadow: 0 10px 12px 0 rgba(172, 170, 170, 0.2), 0 6px 20px 0 rgba(172, 170, 170, 0.2);/*shadow of the box*/
+    height: 50px;/*height of button*/
+    width: 240px;/*width of button*/
+    font-size: x-large;/*increase the size of button*/
+    background: linear-gradient(to right, #1A2980, #26D0CE);/*Gradient for the background of button*/
+    align-items: center; /* Align items vertically in the center*/
+}
+.container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically in the center */
+    padding: 0%;
+}
+
+.icon {
+    font-size: 24px; /* Set the font size of the icon */
+    margin-right: 50px; /* Add some right margin for spacing */
+    padding: 0%;
+    display: flex;/*display to be flex*/
+    align-items: center; /* Align items vertically in the center*/
+}
+
+.phone{
+    margin-left: 70px !important;/*margin of phone from left*/
+    margin-bottom:  54px !important;/*margin of phone from top*/
+}

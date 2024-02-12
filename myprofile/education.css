@@ -1,0 +1,24 @@
+body{
+    background-image: url(pro.png);/*backgroung image of education*/
+    background-size:cover;/*it should cover the whole page or not*/
+    background-position: center center;/*position of background image*/
+    background-repeat: no-repeat;/*It some space is left thaan it should repeat itself or not*/
+    background-attachment: fixed;/**/
+    color:azure;/*color of body*/
+}
+.edu{ 
+    margin-top: 7%;/*margin from the top*/
+    margin-left: 32%;/*margin from left*/
+    font-size:5mm;/*size of font*/
+    color:azure;/*color of font*/
+}
+.titles{
+    color:azure;/*color of title*/
+    font-family: 'Times New Roman', Times, serif;/*font family */
+    font: bolder;/*boldness of font*/
+    font-size:15mm;/*font size*/
+    margin-left: 32%;/*margin from lrft*/
+    margin-top: 10%;/*margin from top*/
+    border-radius: 5px;/*radius of the border*/
+    border-color: aqua;/*color of the border*/
+}

@@ -1,0 +1,26 @@
+body{
+    background-image: url(pro.png);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: azure;
+}
+.project{
+    margin-top: 5%;
+    margin-left: 42%;
+    font-size:5mm;
+}
+.titles{
+    color: black;  
+    font-family: 'Times New Roman', Times, serif;
+    font: bolder;
+    font-size:15mm;
+    margin-left: 42%;
+    margin-top: 10%;
+    border-radius: 5px;
+    border-color: aqua;
+}
+.titles{
+    color:azure;
+}
