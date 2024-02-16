@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+ul {
+    display: contents;
+    margin-left: 500px;
+    align-content: center;
+}
+
+img {
+    height: 500px;
+    border: 2px solid white;
+}

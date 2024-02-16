@@ -1,0 +1,54 @@
+* {
+    background-image: url("112.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    border-radius: 15px;/*border radius of the button*/
+    box-shadow: 0 10px 12px 0 rgba(172, 170, 170, 0.2), 0 6px 20px 0 rgba(172, 170, 170, 0.2);/*shadow of the box*/
+    height: 50px;/*height of button*/
+    width: 240px;/*width of button*/
+    font-size: x-large;/*increase the size of button*/
+    background: linear-gradient(to right, #1A2980, #26D0CE);/*Gradient for the background of button*/
+    align-items: center; /* Align items vertically in the center*/
+    padding: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+li {
+    background-blend-mode: color-burn;
+}
+
+.container {
+    display: block; /* Use flexbox layout */
+    align-items: center; /* Align items vertically in the center */
+    padding: 0%;
+    margin: 10px;
+    margin-left: 65%;
+    color: aliceblue;
+}
+
+.icon {
+    font-size: 24px; /* Set the font size of the icon */
+    margin-right: 50px; /* Add some right margin for spacing */
+    padding: 10px;
+    display: block;/*display to be flex*/
+    align-items: center; /* Align items vertically in the center*/
+}
+
+.phone{
+    margin-left: 75px !important;/*margin of phone from left*/
+    color: aliceblue;
+}
+
+@media screen and (min-width: 720px) {
+    body {
+      background-color: crimson;
+    }
+  }
+@media screen and (min-width: 720px) {
+    #rightsidebar {width: 300px; float: right; height: 150px}
+    #main {margin-right: 200px;}
+  }

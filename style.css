@@ -1,0 +1,251 @@
+* {
+    background-color: black;
+    margin: 0px; 
+
+    /* background-image: url("pro.png"); 
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.nav{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    height: 50px;
+    PADDING: 15px;
+}
+
+a{
+    color: aliceblue;
+    background-color: #C1E8FF;
+    text-decoration: none;
+}
+
+.button {   
+    height: 50px;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    text-align: center;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff4f79;
+}
+
+.navBar {
+    margin: 10px;
+    height: 50px; 
+    
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    PADDING: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+.home{
+    height: 50px;
+    width: 150px;
+    margin-right: 50px;
+    text-decoration: none;
+    background-color: #C1E8FF;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+.achivement{
+    height: 50px;
+    width: 150px;
+    margin-right: 50px;
+    text-decoration: none;
+    background-color: #C1E8FF;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+.member {
+    height: 50px;
+    width: 150px;
+    margin-right: 50px;
+    text-decoration: none;
+    background-color: #C1E8FF;
+    border: 5px solid white;
+    border-radius: 25px 25px;
+}
+
+.one{
+    color: #021024;
+}
+
+.projects {
+    height: 50px;
+    width: 150px;
+    margin-right: 50px;
+    text-decoration: none;
+    background-color: #C1E8FF;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+.container{
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 900px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.icon {
+    font-size: 24px; /* Set the font size of the icon */
+    margin-right: 50px; /* Add some right margin for spacing */
+    padding: 10px;
+    display: block;/*display to be flex*/
+    align-items: center; /* Align items vertically in the center*/
+}
+
+.contactButton {
+    background-color: #C1E8FF;
+    background: #C1E8FF;
+    color: white;
+    font-family: inherit;
+    padding: 0.45em;
+    padding-left: 1em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #021024;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+    right: 0;
+  }
+  
+  .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+  .contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+  
+p{
+    font-size: larger;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    height: 50px;
+    background-color: #C1E8FF;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+b {
+    background-color: #C1E8FF;
+}
+
+/* ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFB49A;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #052659;
+  } */
+
+.members {
+    background-color: #C1E8FF;
+    color: #052659;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.member-h1{
+    border-radius: 25px 25px 0px 0px;
+}
+
+.members ol{
+    border-radius: 25px;
+}
+
+li{
+    background-color: #C1E8FF
+    /* height: 50px; */
+}
+
+ol {
+    background-color: #C1E8FF;
+}
+
+.achivements{
+    text-align: center;
+    display: block;
+    background-color: #C1E8FF;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.achivements-h1{
+    border-radius: 25px 25px 0px 0px;
+}
+
+img{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
+    margin-top: 20px;
+}
