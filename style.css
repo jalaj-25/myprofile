@@ -83,18 +83,18 @@ h1 {
     border-radius: 25px 25px;
 }
 
-.one{
-    color: #021024;
-}
-
-.projects {
+.pro {
     height: 50px;
     width: 150px;
     margin-right: 50px;
     text-decoration: none;
     background-color: #C1E8FF;
     border: 5px solid white;
-    border-radius: 30px;
+    border-radius: 25px 25px;
+}
+
+.one{
+    color: #021024;
 }
 
 .container{
@@ -205,26 +205,48 @@ b {
 .members {
     background-color: #C1E8FF;
     color: #052659;
-    margin-top: 50px;
+    /* margin-top: 100px; */
     border: 2px solid white;
-    border-radius: 25px;
-}
-
-.member-h1{
     border-radius: 25px 25px 0px 0px;
 }
 
+.member-h1 {
+    border-radius: 25px 25px 0px 0px;
+    border: 2px solid white;
+    margin-top: 50px;
+}
+
 .members ol{
-    border-radius: 25px;
+    border: 2px solid white;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.projects{
+    background-color: #C1E8FF;
+    color: #052659;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.project-h1{
+    border-radius: 25px 25px 0px 0px;
+    border: 0px solid white;
+}
+
+.projects ol{
+    border-radius: 25px 25px 25px 25px;
 }
 
 li{
-    background-color: #C1E8FF
-    /* height: 50px; */
+    background-color: #C1E8FF;
+    height: 50px;
+    display: block;
 }
 
 ol {
     background-color: #C1E8FF;
+
 }
 
 .achivements{
