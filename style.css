@@ -183,7 +183,7 @@ b {
     background-color: #C1E8FF;
 }
 
-/* ::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     width: 7px;
   }
   
@@ -194,7 +194,7 @@ b {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #FFB49A;
+    background: #C1E8FF;
   }
   
   /* Handle on hover */
