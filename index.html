@@ -2,90 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prtfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title><!--name of the file-->
+    <link rel="stylesheet" href="style.css"><!--linking with css-->
     <script src="https://kit.fontawesome.com/85499f6aae.js" crossorigin="anonymous"></script><!--adding java script-->
 </head>
 <body>
-        <div class="navBar">
-            <button class="home"><a href="#" class="one">HOME</a></button>
-            <button class="achivement"><a href="#achi" class="one">ACHIVEMENTS</a></button>
-            <button class="member"><a href="#member" class="one">MEMBER</a></button>
-            <button class="pro"><a href="projects.html" target="_main" class="one">PROJECTS</a></button>
-            <button class="contactButton">
-              <a href="contact.html" class="one">Contact me:</a>
-              <div class="iconButton">
-                <svg
-                  height="24"
-                  width="24"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M0 0h24v24H0z" fill="none"></path>
-                  <path
-                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </div>
-            </button>
+    <a href="jalaj.jpg " target="_main"><!--adding picture and initializing anchor tag-->
+    <img src="jalaj.jpg" alt="Jalaj" height="775" position="static"><!--What  to show when we click on it-->
+    </a><!--close anchor tag-->
+    <pre><h1>Welcome to my profile<br><b>    My name is Jalaj.</b></h1><!--adding paragraph-->
+    <ul><!--unordered list-->
+    <li><!--start list-->
+        <div class="box1" ><!--make div and give class name as box1-->
+            <a name="edu" href="education.html" target="_main"> <!--link it with education-->
+                EDUCATION 
+            </a>
+        </div> 
+    </li><!--close list-->
+    <li><!--start list-->
+        <div class="box2" ><!---make div and give it class name as box 2-->
+            <a name="pro" href="project.html" target="_main"> <!--link it with project-->
+                PROJECTS 
+            </a>
         </div>
-    <h1>This is my new portfolio</h1>
-    <div class="container">
-        <p>Hi, I am Jalaj. I am from Jodhpur, Rajasthan. This is my first year and I learn many new things.</p>
-    </div>
+    </li><!--close list-->
+    <li><!--start list-->
+        <div class="box3" ><!--make div and give it class name as box 3-->
+            <a name ="certi" href="certificate.html" target="_main"><!--link it with certificates--> 
+                CERTIFICATES 
+            </a>
+        </div>
+    </li><!--close list-->
+    <li><!--start list-->
+        <div class="box4" ><!--make div and give it class name as box 3-->
+            <a name ="core" href="core.html" target="_main"><!--link it with certificates--> 
+                Core Members 
+            </a>
+        </div>
+    </li><!--close list-->
+    </ul><!--close unordered list-->
+    </h1>
+    </pre> 
+    <div >
+        <ul ><!--start unordered list-->
+           <h2><a>Contact me:-</a></h2> <br><p><!--input content-->
+                <li><b><a>                                                                             <div class="conatainer"><i class="icon fa-solid fa-phone"></i></a>                   </b><button><a>                                                                             +91 7240072503  </a></button></div></li>
 
-    <div class="achivements">
-      <h1 id="achi" class="achivements-h1">My awards</h1>
-        <img src="coding_ninja.jpg">    Coding Ninja
-        <img src="Full_stack.jpg">      Full stack web development
-        <img src="game_dev.jpg">        Game development
+                <li><b><a href="https://jalajsinghal3.hashnode.dev/"                    target="_main"><div class="container"><i class="icon fa-brands fa-hashnode"></i></a>                </b><button><a href="https://jalajsinghal3.hashnode.dev/" target="_main">                   Hashnode        </a></button></div></LI>
+                    
+                <li><b><a href="mailto:jalajsinghal25@gmail.com"                                target="_main"><div class="container"><i class="icon fa-regular fa-envelope"></i></a>               </b><button><a href="mailto:jalajsinghal25@gmail.com" target="_main">                               Gmail           </a></button></div></li>
+                
+                <li><b><a href="https://www.codechef.com/users/jalajsinghal3"           target="_main"><div class="container"><i class="icon fa-brands fa-codepen"></i></a>                 </b><button><a href="https://www.codechef.com/users/jalajsinghal3" target="_main">          CodeChef        </a></button></div></li>
+                
+                <li><b><a href="https://github.com/jalaj-25"                            target="_main"><div class="container"><i class="icon fa-brands fa-github"></i></a>                  </b><button><a href="https://github.com/jalaj-25" target="_main">                           Github          </a></button></div></li>
+                
+                <li><b><a href="https://www.linkedin.com/in/%20jalaj-singhal-2a7574287" target="_main"><div class="container"><i class="icon fa-brands fa-linkedin"></i></a>                </b><button><a href="https://www.linkedin.com/in/%20jalaj-singhal-2a7574287" target="_main">LinkedIn        </a></button></div></li>
+                 
+                <li><b><a href="https://www.instagram.com/jalaj.25/"                    target="_main"><div class="container"><i class="icon fa-brands fa-instagram"></i></a>               </b><button><a href="https://www.instagram.com/jalaj.25/" target="_main">                   Instagram       </a></button></div></li>
+            </p>
+        </ul>
     </div>
-
-    <div class="members">
-      <h1 id="member" class="member-h1">Member</h1>
-      <!-- <p>I am very to share that I am currently serving as a core member in three ommunities of our collage.</p> -->
-      <ol>
-        <li> UPES ACM & ACM-W </li><br>There I am serving as a member of event core committe.<br>
-        <li>UPES NSS          </li><BR>There also i am serving as a member of event core committe.<br>
-        <li>UPES IET & NBSP   </li><BR>There i am serving as member of technical core.<br>
-      </ol>
-    </div>
-
-    <div class="projects">
-      <h1 id="project" class="project-h1">My Projects</h1>
-        <ol><!--unordered list of certificates-->
-            <li>Stone Paper Scizzor         <button><!--button for scizzor--><br>
-                <a href="https://github.com/jalaj-25/JALAJC/blob/main/stone%20papeer%20scizzor" target="_main"><!--link of the file-->Click Here</a></button></li><br>
-            <li>Seat Reservation system     <button><!--button for seat reservation-->
-                <a href="https://github.com/jalaj-25/JALAJC/blob/main/seat_reservation.c" target="_main"><!--link of the file-->Click Here</a></button></li><br>
-            <li>Hostel Management system    <button><!--button for hostel management system-->
-                <a href="https://github.com/jalaj-25/JALAJC/blob/main/hostel_management" target="_main"><!--link of the file-->Click Here</a></button></li><br>
-            <li>To_Do_List                  <button><!--button for todolist-->
-                <a href="https://github.com/jalaj-25/JALAJC/blob/main/to-do_list" target="_main"><!--link of the file-->Click Here</a></button></li><br>
-            <li>Emplopyee management system <button><!--button for employee management-->
-                <a href="https://github.com/jalaj-25/JALAJC/blob/main/employee.c" target="_main"><!--link of the file-->Click Here</a></button></li><br>
-            <li>Car showroom                <button><!--button for car showroom-->
-                <a href="https://github.com/jalaj-25/JALAJC/blob/main/carshowroom.c" target="_main"><!--link of the file-->Click Here</a></button></li><br>
-            <li>Cricket score               <button><!--button for cricket score-->
-                <a href="https://github.com/jalaj-25/JALAJC/blob/main/cric_sc.c" target="_main"><!--link of the file-->Click Here</a></button></li><br>                                        
-            <li>LEARNING NEW THINGS</li><br>
-        </ol>
-    </div>
-
-    <footer>
-          <b><a href="https://jalajsinghal3.hashnode.dev/"                    target="_main"><i class="icon fa-brands fa-hashnode"></i></a></b>
-      
-          <b><a href="https://mail.google.com"                                target="_main"><i class="icon fa-regular fa-envelope"></i></a></b>
-        
-          <b><a href="https://www.codechef.com/users/jalajsinghal3"           target="_main"><i class="icon fa-brands fa-codepen"></i></a></b>
-            
-          <b><a href="https://github.com/jalaj-25"                            target="_main"><i class="icon fa-brands fa-github"></i></a></b>
-            
-          <b><a href="https://www.linkedin.com/in/%20jalaj-singhal-2a7574287" target="_main"><i class="icon fa-brands fa-linkedin"></i></a></b>
-            
-          <b><a href="https://www.instagram.com/jalaj.25/"                    target="_main"><i class="icon fa-brands fa-instagram"></i></a></b>
-    </footer>
 </body>
 </html>
