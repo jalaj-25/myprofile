@@ -1,0 +1,16 @@
+*{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+.chart{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
